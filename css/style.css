@@ -1,2 +1,15 @@
 @import url(reset.css);
 @import url(common.css);
+
+.mob_wrap{
+    max-width: 402px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
