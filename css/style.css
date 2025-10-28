@@ -150,7 +150,7 @@ header{
 .con_3{
     width: 100%;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
     padding: 20px;
 }
 
@@ -178,7 +178,7 @@ header{
 .con_3_1{
     padding-top: 50px;
     height: 450px;
-    background: url(../img/sec_3/CON-1-BG.png) no-repeat center / cover;
+    background: url(../img/sec_3/con_1.png) no-repeat center / cover;
 }
 
 
@@ -186,14 +186,14 @@ header{
     padding-left: 40px;
     padding-top: 50px;
     height: 220px;
-    background: url(../img/sec_3/CON-2-BG.png) no-repeat center / cover;
+    background: url(../img/sec_3/con_2.png) no-repeat center / cover;
 }
 
 .con_3_3{
     padding-left: 40px;
     padding-top: 50px;
     height: 220px;
-    background: url(../img/sec_3/CON-3-BG.png) no-repeat center / cover;
+    background: url(../img/sec_3/con_3.png) no-repeat center / cover;
 }
 
 .con_3 h4{
@@ -211,4 +211,32 @@ header{
     font-size: 17px;
     font-weight: 400;
     color: #ffffffa1;
+}
+
+/* sec_3 end */
+
+.sec_4{
+    position: relative;
+    padding: 140px 10px 200px 10px;
+}
+
+.sec_4 p{
+    margin-bottom: 30px;
+}
+
+.sec_4 .blue_point{
+    font-size: 30px;
+    font-weight: 700;
+    color: #007DC6;
+}
+
+.bg_4{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.sec_4 .btn a{
+    position: absolute;
+    bottom: 120px;
 }
