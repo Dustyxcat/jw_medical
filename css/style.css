@@ -54,8 +54,8 @@ header{
 .sec_1 .swiper .swiper-pagination-bullets {
     position: absolute;
     bottom: 40px;
-    left: 20px;
-    width: 50%;
+    left: -20px;
+    width: 70%;
 }
 
 .sec_1_gradi{
