@@ -569,8 +569,9 @@ header{
     .right_con{
         display: none;
     }
-
+    
 }
+/* media end */
 
 .left_con{
     width: 350px;
@@ -627,5 +628,6 @@ header{
     }
 
 }
+/* media end */
 
 
