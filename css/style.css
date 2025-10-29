@@ -293,7 +293,7 @@ header{
 .con_5{
     position: relative;
     height: 350px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px;
     overflow: hidden;
     background-color: #f8F8F8;
 }
@@ -304,7 +304,7 @@ header{
 
 .con_5 h6{
     position: absolute;
-    top: 200px;
+    top: 210px;
     left: 20px;
     font-size: 17px;
     text-align: start;
@@ -320,3 +320,88 @@ header{
 }
 
 /* sec_5 end */
+
+.sec_6{
+    width: 100%;
+    padding: 140px 20px;
+    position: relative;
+}
+
+.video_6{
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video_6 video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.sec_6_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(25, 25, 25, 0) 0%, rgba(25, 25, 25, 0.5) 100%);
+    backdrop-filter: blur(2px);
+}
+
+.sec_6_logo{
+    width: 120px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec_6_bar{
+    width: 100px;
+    height: 3px;
+    background-color: #f8F8F8;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec_6_con{
+    font-size: 16px;
+    color: #f8F8F8;
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
+    bottom: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.sec_6 .btn a{
+    position: absolute;
+    left: 50%;
+    bottom: 120px;
+    z-index: 10;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;          
+    height: 60px;
+    padding: 20px 40px;
+    background: #ffffff00;
+    border: 2px solid #ffffff60;
+    box-shadow: inset 0px 0px 5px 1px rgba(63, 63, 63, 0.1);
+    border-radius: 100px;
+}
+
+.sec_6 .btn h6{
+    color: #fff;
+    margin-left: 10px;
+}
