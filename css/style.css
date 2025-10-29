@@ -558,6 +558,19 @@ header{
     margin-top: 7px;
 }
 /* right_con end */
+@media screen and (max-width:1650px){
+    .right_con{
+        right: 100px;
+    }
+    
+}
+
+@media screen and (max-width:1420px){
+    .right_con{
+        display: none;
+    }
+
+}
 
 .left_con{
     width: 350px;
@@ -599,4 +612,20 @@ header{
     height: 3px;
     background-color: #ffffff;
 }
+/* left end */
+
+@media screen and (max-width:1650px){
+    .left_con{
+        left: 100px;
+    }
+
+}
+
+@media screen and (max-width:1420px){
+    .left_con{
+        display: none;
+    }
+
+}
+
 
