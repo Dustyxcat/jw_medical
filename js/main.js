@@ -21,6 +21,15 @@ $(document).ready(function(){
       freeMode: true,
     });
 
+    var swiper = new Swiper(".con_wrap_r", {
+      loop: true,
+      autoplay: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
     $('.title_news').click(function(){
 
       $('.title_5 h6').addClass('active_color')

@@ -35,5 +35,15 @@ h6{
     font-size: 18px;
     letter-spacing: -0.05em;
     color: #191919;
+}
 
+.wrap{
+    position: relative;
+    background: url(../img/background/back.png) no-repeat center / cover;
+}
+
+.mob_wrap{
+    max-width: 402px;
+    margin: 0 auto;
+    background-color: #fff;
 }
