@@ -15,6 +15,10 @@ header{
     align-items: center;
 }
 
+.logo{
+    width: 80px;
+}
+
 /* header_end */
 
 .sec_1{
@@ -404,4 +408,89 @@ header{
 .sec_6 .btn h6{
     color: #fff;
     margin-left: 10px;
+}
+/* sec_6 end */
+
+.logo_f{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.con_wrap_f{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.con_f{
+    height: 40px;
+    border-bottom: 1px solid #19191913;
+    margin-bottom: 30px;
+}
+
+.con_f a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con_f h6{
+    color: #19191998;
+}
+
+.footer_wrap{
+    padding: 50px 20px;
+    color: #f8F8F8;
+    background-color: #004A8F;
+}
+
+.cate_wrap{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.cate_wrap h5{
+    color: #f8F8F8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cate_wrap h6{
+    color: #f8F8F8;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.loca{
+    font-size: 15px;
+    color: #f8f8f8;
+    font-weight: 200;
+    margin-bottom: 90px;
+}
+
+.family{
+    width: 180px;
+    height: 50px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid #ffffff60;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.family h6{
+    font-size: 15px;
+    color: #f8F8F8;
+    font-weight: 300;
+}
+
+.up_arrow{
+    margin-bottom: 2px;
+}
+
+.copyright{
+    font-size: 13px;
+    color: #F0F0F0;
 }
