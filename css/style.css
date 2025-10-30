@@ -8,6 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .logo{
@@ -15,6 +16,126 @@ header{
 }
 
 /* header_end */
+
+.ham{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 20;
+    background-color: #004A8F;
+    transition: 0.3s;
+}
+
+.ham_head{
+    padding: 0px 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.lang_icon{
+    margin-top: 7px;
+}
+
+.lang h6{
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+.lang_arrow{
+    margin-bottom: 5px;
+}
+
+.exit{
+    margin-top: 3px;
+}
+
+.ham_body{
+    padding: 30px 20px;
+}
+
+.ham_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.ham_title h5{
+    color: #fff;
+}
+
+.ham_title ul{
+    margin-top: 5px;
+    display: none;
+}
+
+.ham_title ul.active_ul{
+    display: block;
+}
+
+.ham_cate{
+    padding-left: 20px;
+}
+
+.ham_cate a {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.ham_arrow{
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.ham_arrow.active_arrow{
+    transform: rotate(180deg);
+}
+
+.ham_foot{
+    padding: 0px 20px;
+}
+
+.ham_menu_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.ham_menu a{
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff28;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.origin_active{
+    right: 0;
+}
+
+.right_active{
+    right: -100%;
+}
+
+/* ham end */
 
 .sec_1{
     position: relative;

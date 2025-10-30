@@ -58,6 +58,42 @@ $(document).ready(function(){
 
     });
 
+    $('.menu_tab').click(function(){
+      $('.ham').css({
+        left: 0,
+        top: 0
+      })
+
+      // $('.ham').removeClass('right_active')
+      // $('.ham').addClass('origin_active')
+
+    });
+
+     $('.exit').click(function(){
+      console.log('클릭')
+      $('.ham').css({
+        left: '-100%',
+        top: 0
+      })
+
+      // $('.ham').removeClass('origin_active')
+      // $('.ham').addClass('right_active')
+    });
+
+
+
+    $(".ham_title ul").each(function (index) {
+
+        $(this).attr("data-index", index);
+      }).click(function () {
+
+          var clicked = $(this).attr("data-index");
+
+          $(".ham_title ul").removeClass("active_ul");
+
+          $(".ham_title ul").eq(clicked).addClass("active_ul");
+        });
+
 
 }); //end
 
