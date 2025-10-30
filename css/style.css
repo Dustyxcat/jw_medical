@@ -663,6 +663,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 20;
 }
 
 .btn_r h6{
