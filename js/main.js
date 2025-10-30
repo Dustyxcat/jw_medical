@@ -60,39 +60,31 @@ $(document).ready(function(){
 
     $('.menu_tab').click(function(){
       $('.ham').css({
-        left: 0,
-        top: 0
+        right: 0,
+        zIndex: 20,
+        opacity: 1
       })
-
-      // $('.ham').removeClass('right_active')
-      // $('.ham').addClass('origin_active')
-
     });
 
      $('.exit').click(function(){
       console.log('클릭')
       $('.ham').css({
-        left: '-100%',
-        top: 0
+        right: '-100%',
+        zIndex: 0,
+        opacity: 0
       })
-
-      // $('.ham').removeClass('origin_active')
-      // $('.ham').addClass('right_active')
     });
 
 
+  $(".ham_title").click(function(){
+        
+        var clicked = $(this).index();
 
-    $(".ham_title ul").each(function (index) {
+        $(".ham_title ul").removeClass("active_ul").eq(clicked).addClass("active_ul");
+        $(".ham_arrow").removeClass("active_arrow").eq(clicked).addClass("active_arrow");
 
-        $(this).attr("data-index", index);
-      }).click(function () {
+    }); //click event end
 
-          var clicked = $(this).attr("data-index");
-
-          $(".ham_title ul").removeClass("active_ul");
-
-          $(".ham_title ul").eq(clicked).addClass("active_ul");
-        });
 
 
 }); //end

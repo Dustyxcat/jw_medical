@@ -22,10 +22,11 @@ header{
     height: 100vh;
     position: absolute;
     top: 0;
-    left: -100%;
-    z-index: 20;
+    right: -100%;
     background-color: #004A8F;
     transition: 0.3s;
+    z-index: 0;
+    opacity: 0;
 }
 
 .ham_head{
@@ -125,14 +126,6 @@ header{
     background-color: #ffffff28;
     border-radius: 50px;
     padding: 5px 15px;
-}
-
-.origin_active{
-    right: 0;
-}
-
-.right_active{
-    right: -100%;
 }
 
 /* ham end */
