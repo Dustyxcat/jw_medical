@@ -61,8 +61,6 @@ $(document).ready(function(){
     $('.menu_tab').click(function(){
       $('.ham').css({
         right: 0,
-        zIndex: 20,
-        opacity: 1
       })
     });
 
@@ -70,8 +68,6 @@ $(document).ready(function(){
       console.log('클릭')
       $('.ham').css({
         right: '-100%',
-        zIndex: 0,
-        opacity: 0
       })
     });
 
@@ -79,9 +75,13 @@ $(document).ready(function(){
   $(".ham_title").click(function(){
         
         var clicked = $(this).index();
+        console.log('클릭' + clicked)
 
-        $(".ham_title ul").removeClass("active_ul").eq(clicked).addClass("active_ul");
-        $(".ham_arrow").removeClass("active_arrow").eq(clicked).addClass("active_arrow");
+        $(".ham_title").removeClass("active_ul")
+        $(".ham_title").eq(clicked).addClass("active_ul");
+
+        $(".ham_arrow").removeClass("active_arrow")
+        $(".ham_arrow").eq(clicked).addClass("active_arrow");
 
     }); //click event end
 
